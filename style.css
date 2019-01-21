@@ -1,0 +1,54 @@
+p {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+}
+
+.center {
+    line-height: 100px;
+    height: 500px;
+    text-align: center;
+}
+
+.center p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	background-color: black;
+}
+
+a:hover {
+	font-family: 'Courier New', Courier, monospace;
+	tex: red;
+	text-decoration: underline;
+}
+
+body {
+  text-align: center;
+}
+
+.kek {
+  font-size: 1.5vw;
+}
+
+@include media-breakpoint-up(sm) {
+  kek {
+    font-size: 0.5rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  kek {
+    font-size: 1rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  kek {
+    font-size: 1.5rem;
+  }
+}
